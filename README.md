@@ -1,4 +1,4 @@
-#Weather App React
+# Weather App React
 
 This simple weather app utilizes a free Weather API in order to display weather for the day.
 
