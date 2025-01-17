@@ -1,0 +1,144 @@
+/*General Header and Footer Styling Values*/
+.headerContainer {
+  position: relative;
+  width: 100%;
+  background-color: var(--layout-header-bg-color);
+  padding: 0.2em 2em 0.2em 2em;
+  box-shadow: 0px 1px 4px black;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+.homeContainer {
+  width: 70%;
+}
+.moduleContainer {
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 40%;
+  font-family: var(--font-formal-family);
+  font-size: 1.1rem;
+}
+.allModContainer {
+  display: flex;
+  justify-content: center;
+}
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  padding: 0.9rem 0 0.9rem 0;
+}
+.logoContainer {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.logoTitle {
+  font-family: var(--font-formal-family);
+  color: var(--main-font-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.footerContainer {
+  color: var(--main-font-color);
+  background-color: var(--layout-header-bg-color);
+}
+.footerWrapper {
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: var(--font-formal-family);
+}
+/*General Home Page Styling*/
+.homeWrapper {
+  color: var(--main-font-color);
+  min-height: 100vh;
+}
+/*User Input Styling*/
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  padding: 1.5em 0 1.5em 0;
+}
+.userInputBtn,
+.userInput {
+  border: none;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  background: rgba(0, 0, 0, 0.3);
+}
+.userInput {
+  border-radius: 5px 0px 0px 0px;
+  font-size: 1.3rem;
+  padding: 0.4rem 0.2rem 0.2rem 0.9rem;
+  font-family: var(--font-formal-family);
+  color: var(--main-font-color);
+}
+.userInputBtn {
+  border-radius: 0px 5px 0px 0px;
+  padding: 0.69rem 0.5rem 0.4rem 0.5rem;
+}
+.areaContainer,
+.tempContainer,
+.weatherContainer,
+.feelsLikeContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: var(--font-formal-family);
+  font-weight: 540;
+}
+.areaContainer {
+  padding-bottom: 0.3rem;
+}
+.tempContainer {
+  padding-bottom: 0.5rem;
+  font-size: 2.3rem;
+}
+.tempContainer p {
+  cursor: pointer;
+}
+.weatherIcon {
+  height: 45px;
+  width: 45px;
+}
+.weatherContainer {
+  align-items: center;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+.feelsLikeContainer {
+  color: rgb(199, 199, 199);
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+}
+.subModuleContainer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.userInput:focus {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+@media screen and (max-width: 1024px) {
+  .logoTitle {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .areaContainer {
+    font-size: 1.5rem;
+  }
+  .moduleContainer {
+    width: 90%;
+  }
+  .homeContainer {
+    width: 100%;
+  }
+  .headerContainer {
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  }
+}
