@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-formal-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  --layout-header-bg-color: rgb(0, 39, 88);
+  --main-font-color: white;
+}
+
+main {
+  background-image: url("./assets/sea.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
