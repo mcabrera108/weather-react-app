@@ -26,7 +26,6 @@ function Home() {
       );
       const actualData = await response.json();
 
-      console.log(actualData);
       if (!response.ok) {
         throw new Error(
           `This is an HTTP Error: The status is ${response.data}`
