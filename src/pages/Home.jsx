@@ -66,7 +66,7 @@ function Home() {
                 ) : (
                   <FontAwesomeIcon
                     icon={faMagnifyingGlass}
-                    size="lg"
+                    size="xl"
                     color="white"
                   />
                 )}
