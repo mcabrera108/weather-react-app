@@ -68,6 +68,7 @@ function Home() {
                     icon={faMagnifyingGlass}
                     size="xl"
                     color="white"
+                    title="magnifyingglass"
                   />
                 )}
               </button>

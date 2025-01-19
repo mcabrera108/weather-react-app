@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className={style.footerContainer}>
       <div className={style.footerWrapper}>
-        @ 2024-2025 Martin Cabrera. All rights reserved.
+        <h4>@ 2024-2025 Martin Cabrera. All rights reserved.</h4>
       </div>
     </footer>
   );

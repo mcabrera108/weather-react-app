@@ -8,7 +8,11 @@ function Header() {
   return (
     <header className={style.headerContainer}>
       <div className={style.logoContainer}>
-        <WiDaySunny size={isMobileDevice ? 40 : 50} color="white" />
+        <WiDaySunny
+          size={isMobileDevice ? 40 : 50}
+          color="white"
+          title={"sun"}
+        />
         <div className={style.logoTitle}>
           <span>Weather App</span>
         </div>
